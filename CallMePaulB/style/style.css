@@ -17,7 +17,7 @@ header {
 }
 .navbar-default {
     background: linear-gradient(135deg, rgba(120,168,254,0.78) 0%,rgba(55,56,104,0.95) 100%);
-    border-color: none;
+    border-color: transparent;
     border: none;
 }
 .navbar-default .navbar-nav>li>a {
@@ -37,22 +37,22 @@ header {
 }
 .navbar-default .navbar-toggle:hover{
     border-color: #FFFEF8;
-    background-color: none;
+    background-color: transparent;
 }
 .bgimage1 {
-  background-image: url('/images/Paris.jpg');
+  background-image: url('../images/Paris.jpg');
   background-position: center center;
   background-size: cover;
   height: 700px;
 }
 .bgimage2 {
-  background-image: url('/images/Me.jpg');
+  background-image: url('../images/Me.jpg');
   background-position: center center;
   background-size: cover;
   height: 715px;
 }
 .bgimage3 {
-  background-image: url('/images/bridge.jpg');
+  background-image: url('../images/bridge.jpg');
   background-position: left center;
   background-size: cover;
   height: 700px;
