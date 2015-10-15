@@ -64,6 +64,9 @@ p>a:hover, p>a:focus, p>a {
 }
 .navbar-default .navbar-brand:hover{
     color: #E1C9E6;
+    background: linear-gradient(135deg, rgba(120,168,254,0.78) 0%,rgba(55,56,104,0.95) 100%);
+    border-color: transparent;
+    border: none;
 }
 .navbar-default .navbar-nav>li>a {
     color: #FFFEF8;
@@ -143,7 +146,11 @@ section {
 }
 .bgimage1 {
   background-image: url('../images/Paris_Full.jpg');
-  background-position: center center;
+    background-color: transparent;
+}
+.bgimage1 {
+  background-image: url('../images/Paris.jpg');
+  background-position: ceter center;
   background-size: cover;
   height: 705px;
 }
@@ -164,4 +171,14 @@ section {
     background-position: center center;
     background-size: cover;
     height: 705px;
+  background-image: url('../images/Me.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 715px;
+}
+.bgimage3 {
+  background-image: url('../images/bridge.jpg');
+  background-position: left center;
+  background-size: cover;
+  height: 700px;
 }
